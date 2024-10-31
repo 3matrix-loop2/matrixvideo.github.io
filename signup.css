@@ -181,11 +181,17 @@ nav ul li a:hover{
     top:55px;
     border-radius: 15px;
     height: 250px;
-    background-color: #423a49;
+    background-image: linear-gradient(to right , #513a5e, #312438);
+    background-image: linear-gradient(to top, #513a5e, #50502f);
+    background-image: linear-gradient(to bottom, #5e5b37, #3a1e4b);
 }
 
 body{
-    background-color: #29242e;
+    
+    background-image: linear-gradient(to right , #6d6e19,#6e4885,#422055, #693e80,#6d6e19);
+
+    
+    
 }
 
 h2{
@@ -215,8 +221,9 @@ footer{
     text-align: center; 
     padding: 20px 0; 
     position: fixed; 
-    bottom: 0;
     width: 100%;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, #464545, #030303);
 }
 .wert{
     color:rgb(226, 137, 137) ;
