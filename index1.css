@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1a20;
+}
+
+
+.container {
+    width: 90%;
+    margin:auto;
+
+    
+}
+
+header {
+    background: #1e1a20;
+    color: #fff;
+    padding: 20px 0;
+    height: 35px;
+    
+}
+
+header h3 {
+    margin: 0;
+    text-align: center;
+    position: relative; right: 47%;
+    
+    
+}
+h1{
+    font-size: 48px;
+    margin-top: 120px;
+}
+.g1{
+    color: rgb(174, 174, 247);
+}
+p{
+    font-size: 20px;
+    padding-right:100px;
+    font-style: oblique;
+}
+.sign{
+    font-size: 21px;
+    border-radius: 10px;
+    width: 250px;
+    height: 58px;
+    border: #fff;
+    margin-top:10px;
+    color: #2c2929;
+}
+.rent{
+    font-size: 21px;
+    border-radius: 10px;
+    width: 150px;
+    height: 58px;
+    border: #fff;
+    margin-top:10px;
+    color: #2c2929;
+}
+.sign:hover{
+    background-color: rgb(201, 193, 193);
+    color: #302e2e;
+    width: 260px;
+    height: 63px;
+    transition-duration: 0.5s;
+}
+.rent:hover{
+    background-color: rgb(201, 193, 193);
+    color: #302e2e;
+    width: 170px;
+    height: 60px;
+    transition-duration: 0.5s;
+}
+nav {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    position:   relative; bottom: 34px;
+    right: 25%;
+
+}
+.material-icons{
+    position: relative; left: 1050px;
+    bottom: 75px;
+    width: 25px;
+    height: 30px;
+    align-content: center;
+    
+}
+.material-icons:hover{
+    background-color: white;
+    color: #0f0d0d;
+    border-radius: 20%;
+    width: 26px;
+    height: 30px;
+}
+
+.join{
+    width: 100px;
+    height: 48px;
+    border-radius: 8px;
+    background-color:#3131ee;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border:#3f3ff3 ;
+    position: relative; bottom: 82px;
+    left: 1135px;
+
+}
+button:hover{
+    background-color: rgb(148, 148, 250);
+
+}
+.search {
+    width: 100px;
+    height: 45px;
+    border-radius: 1000px;
+    background-color: white;
+    color:#141414; 
+    text-align: center;
+    border: #141414;
+    position: relative;  bottom: 82px;
+    left: 790px;
+    transition: 1s;
+
+    
+}
+.search:hover{
+    background-color: rgb(233, 227, 227);
+    color: #141414;
+    width: 102px;
+
+}
+.lan{
+    width: 70px;
+    height: 45px;
+    background-color:#1e1a20;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    border: #141414;
+    position: relative;  bottom: 82px;
+    left: 845px;
+
+}
+.lan:hover{
+    background-color:whitesmoke;
+    color: #141414;
+}
+.subs{
+    width: 100px;
+    width: 100px;
+    height: 49px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #1e1a20;
+    border: #141414;
+    color:whitesmoke;
+    position: relative; bottom: 85px;
+    left: 220px;
+
+}
+.subs:hover{
+    background-color: white;
+    color:#0f0d0d
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 17px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: whitesmoke;
+    padding: 14px;
+    border-radius: 9px;
+    color: #0f0d0d;
+    transition: 0.5s;
+
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; 
+    border-radius: 15px;
+
+}
+.hero video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height:920px;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    object-fit: cover; 
+}
+.hero .container {
+    position: relative;
+    z-index: 2; 
+    color: white; 
+}
+.watch{
+    color: white;
+    font-size: 36px;
+    position: relative; bottom: 80px;
+}
+.watch2{
+    color: white;
+    font-size: 22px;
+    position: relative; bottom: 80px;
+}
+.content {
+    padding: 20px 0;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative; bottom: 89px;
+}
+
+.card {
+    background: #2f2835;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 200px;
+    color: whitesmoke;
+    
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+    height: 135px;
+
+}
+.card:hover{
+    transform: scale(1.3);
+    transition:1s;
+    width: 209px;
+}
+
+footer {
+    background: #3d3d3d;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    height: 120px;
+}
+.re{
+    text-decoration: none;
+    color: #2c2929;
+   
+}
